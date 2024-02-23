@@ -9,19 +9,22 @@ dependencies:
     specifier: 0.5.5
     version: 0.5.5(typescript@5.3.3)
   '@astrojs/preact':
-    specifier: ^3.1.0
-    version: 3.1.0(@babel/core@7.23.9)(preact@10.19.6)(vite@5.1.4)
+    specifier: 3.1.1
+    version: 3.1.1(@babel/core@7.23.9)(preact@10.19.6)(vite@5.1.4)
   '@astrojs/tailwind':
-    specifier: ^5.1.0
+    specifier: 5.1.0
     version: 5.1.0(astro@4.4.2)(tailwindcss@3.4.1)
   astro:
     specifier: 4.4.2
     version: 4.4.2(typescript@5.3.3)
   photoswipe:
-    specifier: ^5.4.3
+    specifier: 5.4.3
     version: 5.4.3
+  preact:
+    specifier: 10.19.6
+    version: 10.19.6
   tailwindcss:
-    specifier: ^3.4.1
+    specifier: 3.4.1
     version: 3.4.1
   typescript:
     specifier: 5.3.3
@@ -120,8 +123,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/preact@3.1.0(@babel/core@7.23.9)(preact@10.19.6)(vite@5.1.4):
-    resolution: {integrity: sha512-17Eo+H3fTgcmKUa7v6aAt2BIkffdTZGR4aC0K2jO4nyNhgLRAEuaoXXJwzAG1x0UHnCw7bTQ2Vv3vuJFRy1PTg==}
+  /@astrojs/preact@3.1.1(@babel/core@7.23.9)(preact@10.19.6)(vite@5.1.4):
+    resolution: {integrity: sha512-ASgmVzh4wLyIyynp5CIfDwE45Vg/tIP+Y+5SnQtURmCP1qZpjdUbsw+bGQ0wCSXtjIbzCBa7Kw7Qn0g6WE2W2w==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       preact: ^10.6.5
@@ -132,7 +135,7 @@ packages:
       '@preact/signals': 1.2.2(preact@10.19.6)
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.23.9)
       preact: 10.19.6
-      preact-render-to-string: 6.4.0(preact@10.19.6)
+      preact-render-to-string: 6.3.1(preact@10.19.6)
       preact-ssr-prepass: 1.2.1(preact@10.19.6)
     transitivePeerDependencies:
       - '@babel/core'
@@ -3172,8 +3175,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /preact-render-to-string@6.4.0(preact@10.19.6):
-    resolution: {integrity: sha512-pzDwezZaLbK371OiJjXDsZJwVOALzFX5M1wEh2Kr0pEApq5AV6bRH/DFbA/zNA7Lck/duyREPQLLvzu2G6hEQQ==}
+  /preact-render-to-string@6.3.1(preact@10.19.6):
+    resolution: {integrity: sha512-NQ28WrjLtWY6lKDlTxnFpKHZdpjfF+oE6V4tZ0rTrunHrtZp6Dm0oFrcJalt/5PNeqJz4j1DuZDS0Y6rCBoqDA==}
     peerDependencies:
       preact: '>=10'
     dependencies:
