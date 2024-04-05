@@ -1,12 +1,17 @@
 ---
-import Galeria from './Galeria.astro'
+import Galeria from './Galeria.tsx'
+import Editions from '@/components/Editions'
+
+import { getI18N } from "@/i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
 ---
 <section
   class="relative z-10 mx-auto my-24 max-w-[70ch] text-pretty px-6 text-left text-xl sm:px-20"
 >
-<p>lerem3</p>
-<p>lerem3</p>
-<p>lerem3</p>
 
-<Galeria />
+  <main class="pb-24">
+    <Editions i18n={i18n} client:load/>
+  </main>
 </section>
