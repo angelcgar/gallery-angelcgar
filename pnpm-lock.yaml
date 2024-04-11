@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@appnest/masonry-layout':
-    specifier: ^2.2.3
+    specifier: 2.2.3
     version: 2.2.3
   '@astrojs/check':
     specifier: 0.5.5
