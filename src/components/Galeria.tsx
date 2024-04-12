@@ -17,7 +17,7 @@ export default function Galeria({i18n,edicion}:{i18n:any,edicion:string}) {
       >
         {i18n.GALLERY.TITLE}
       </h2>
-      <p class="text-center text-2xl">{i18n.GALLERY.TEXT}</p>
+      {/* <p class="text-center text-2xl">{i18n.GALLERY.TEXT}</p> */}
 
       <masonry-layout
         gap="24"
@@ -57,12 +57,12 @@ export default function Galeria({i18n,edicion}:{i18n:any,edicion:string}) {
         }
       </masonry-layout>
 
-      <div class="text-center mx-auto">
+      {/* <div class="text-center mx-auto">
       {
       !isExpanded && 
       <Button onClick={LoadMore} id="load-more" url="#">{i18n.GALLERY.LOAD_MORE}</Button>
       }
-      </div>
+      </div> */}
 
     </section>
   )

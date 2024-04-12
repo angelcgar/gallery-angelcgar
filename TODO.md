@@ -1,1 +1,2 @@
-- [] No se encontraron los siguientes modulos '@/components/flags/UnitedStates.astro'; '@/components/flags/Andorra.astro'; '@/components/flags/Spain.astro';
+- [x] No se encontraron los siguientes modulos '@/components/flags/UnitedStates.astro'; '@/components/flags/Andorra.astro'; '@/components/flags/Spain.astro';
+- [] Arreglar la presentacion de la pagina de inicio
