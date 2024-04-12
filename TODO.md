@@ -1,2 +1,7 @@
 - [x] No se encontraron los siguientes modulos '@/components/flags/UnitedStates.astro'; '@/components/flags/Andorra.astro'; '@/components/flags/Spain.astro';
-- [] Arreglar la presentacion de la pagina de inicio
+- [x] Arreglar la presentacion de la pagina de inicio
+- [] Mostrar mas imagenes
+- [] Sacar las medidas de las imagenes y buscar la mejores medidas para las imagenes
+- [] Buscar imagenes de dibujitos que concuerden con tus medidas
+- [] Hacer una grid responsive
+- [] Cambiar los colores de la pagina por unos mas llamativos
