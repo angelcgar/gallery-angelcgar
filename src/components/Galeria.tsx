@@ -11,7 +11,7 @@ export default function Galeria({i18n,edicion}:{i18n:any,edicion:string}) {
   const {first,isExpanded,photos,LoadMore} = useGallery({edicion})
 
   return ( 
-    <section class="max-w-8xl mx-auto py-20 px-20">
+    <section class="max-w-7xl mx-auto py-20 px-20">
       <h2
         class="mx-auto mb-8 text-center text-3xl lg:text-6xl font-semibold tracking-wide"
       >
@@ -21,7 +21,7 @@ export default function Galeria({i18n,edicion}:{i18n:any,edicion:string}) {
 
       <masonry-layout
         gap="24"
-        maxcolwidth="600"
+        maxcolwidth="300"
         class="lg:mx-auto mx-4 py-20"
         id="gallery"
       >

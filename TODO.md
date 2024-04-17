@@ -68,8 +68,10 @@
             1152x767 pixeles
 
 - [x] Buscar imagenes de dibujitos que concuerden con tus medidas
-- [] Mostrar las imagenes
-- [] Mostrar las imagenes en photoswipe
-- [] Hacer una grid responsive
+- [x] Mostrar las imagenes
+- [x] Mostrar las imagenes en photoswipe
+- [x] Hacer una grid responsive
 - [] Cambiar los colores de la pagina por unos mas llamativos
-- [] que es @appnest/masonry-layout
+- [x] que es @appnest/masonry-layout
+- [] Buscar las medidas de las imagenes y ponerlas en meta-gallery.json
+- [] Buscar la mejor medida para las imagenes
